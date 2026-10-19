@@ -1,0 +1,24 @@
+{
+  "name": "ramp-backend",
+  "version": "1.0.0",
+  "description": "RAMP backend API - Rotor Adventures Maintenance Platform",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node index.js",
+    "start": "NODE_ENV=production node index.js",
+    "build": "echo 'No build step needed for Node.js backend'"
+  },
+  "keywords": [],
+  "author": "Rotor Adventures",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
